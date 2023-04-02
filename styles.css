@@ -14,11 +14,11 @@
 
 .container__header {
 	width: 100%;
-	background-color: green;
+	height: 88px;
+	background-color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 16px;
 }
 
 .container__header_left {
@@ -33,4 +33,49 @@
 
 .container__content {
 	background-color: red;
+}
+
+.header__burger {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #FF3E79;
+	border-color: #FF3E79;
+	margin-top: 24px;
+	margin-left: 16px;
+	margin-bottom: 24px;
+}
+
+.header__burger_elem1,
+.header__burger_elem2,
+.header__burger_elem3 {
+	position: absolute;
+	background-color: white;
+	height: 2px;
+}
+
+.header__burger_elem1 {
+	width: 18px;
+	border-radius: 1px;
+	margin-top: 12px;
+	margin-bottom: 26px;
+	margin-left: 11px;
+}
+
+.header__burger_elem2 {
+	width: 10px;
+	border-radius: 1px;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	margin-left: 11px;
+
+}
+.header__burger_elem3 {
+	width: 14px;
+	border-radius: 1px;
+	margin-top: 26px;
+	margin-bottom: 12px;
+	margin-left: 11px;
+
 }
