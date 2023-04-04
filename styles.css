@@ -29,6 +29,7 @@
 .container__header_right {
 	display: flex;
 	flex-direction: row;
+	width: 100%;
 }
 
 .container__content {
@@ -103,3 +104,45 @@
 	margin-bottom: 29.21px;
 }
 
+.logo__img2 {
+	margin-top: 18.59px;
+	margin-bottom: 43.73px;
+}
+
+.logo__divider {
+	margin-top: 28px;
+	margin-left: 16.73px;
+	width: 2px;
+	height: 32px;
+	fill: Solid #EAEAEA;
+	border-radius: 1px;
+}
+
+.header__button1,
+.header__button2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #FF3E79;
+	border-color: #FF3E79;
+}
+
+.header__button1 {
+	margin-top: 24px;
+	margin-left: 20px;
+}
+
+.header__button_part1 {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.header__button_part2 {
+	margin-left: 11px;
+	margin-bottom: 11px;
+}
+
+.header__button2 {
+	margin-top: 24px;
+	margin-left: 16px;
+}
