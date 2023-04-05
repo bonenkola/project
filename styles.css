@@ -33,7 +33,7 @@
 }
 
 .container__content {
-	background-color: red;
+	background-color: #F8F8F8;
 }
 
 .header__burger {
@@ -140,9 +140,14 @@
 .header__button_part2 {
 	margin-left: 11px;
 	margin-bottom: 11px;
+	padding: 0;
 }
 
 .header__button2 {
 	margin-top: 24px;
 	margin-left: 16px;
+}
+
+h1 {
+	font-family:;
 }
