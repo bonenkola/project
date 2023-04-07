@@ -47,7 +47,7 @@
 	height: 40px;
 	border-radius: 20px;
 	background-color: #FF3E79;
-	border-color: #FF3E79;
+	border: none;
 	margin-top: 24px;
 	margin-left: 16px;
 	margin-bottom: 24px;
@@ -89,10 +89,6 @@
 
 .logo__divider {
 	margin-left: 16.73px;
-	width: 2px;
-	height: 32px;
-	fill: Solid #EAEAEA;
-	border-radius: 1px;
 }
 
 .header__button1,
@@ -101,12 +97,13 @@
 	height: 40px;
 	border-radius: 20px;
 	background-color: #FF3E79;
-	border-color: #FF3E79;
+	border: none;
 }
 
 .header__button1 {
 	margin-top: 24px;
 	margin-left: 20px;
+	margin-right: 16px;
 }
 
 .header__button1-elem {
@@ -115,8 +112,6 @@
 
 .header__button2 {
 	margin-top: 24px;
-	margin-left: 16px;
-	margin-right: 16px;
 }
 
 .header__button2-elem {
@@ -146,11 +141,11 @@ input {
 	color: #7E7E82;
 }
 
-section {
+.section {
 	margin-top: 24px;
 	margin-left: 16px;
 	margin-right: 16px;
-	font-size: 13px;
+	font-size: 14px;
 	width: 288px;
 	height: 90px;
 	color: #1B1C21;
@@ -158,4 +153,24 @@ section {
 	line-height: 18px;
 	vertical-align: top;
 	letter-spacing: 0.2px;
+	padding-right: 16px;
+}
+
+h2 {
+	font-size: 16px;
+	font-style: medium;
+	margin-top: 16px;
+	line-height: 24px;
+}
+
+.icon {
+	margin-left: 24.29px;
+	margin-top: 23.29px;
+	margin-right: 16.29px;
+}
+
+.container__content_img {
+	width: 320px;
+	height: 230.8px;
+	margin-top: 16px;
 }
