@@ -35,13 +35,6 @@
 	width: 100%;
 }
 
-.container__content {
-	background-color: #F8F8F8;
-	font-family: sans-serif;
-	display: flex;
-	flex-flow: wrap;
-}
-
 .header__burger {
 	position: relative;
 	width: 40px;
@@ -54,6 +47,13 @@
 	margin-bottom: 24px;
 	margin-right: 16.73px;
 }
+
+@media (min-width: 768px) {
+	.header__burger {
+		margin-left: 24px;
+	}
+}
+
 
 .header__burger_elem1,
 .header__burger_elem2,
@@ -93,7 +93,10 @@
 }
 
 .header__button1,
-.header__button2 {
+.header__button2,
+.header__button3,
+.header__button4,
+.header__button5 {
 	width: 40px;
 	height: 40px;
 	border-radius: 20px;
@@ -101,23 +104,71 @@
 	border: none;
 }
 
+@media (max-width: 320px) {
+	.header__button1,
+	.header__button2,
+	.header__button3,
+	.logo__divider2 {
+		display: none;
+	}
+}
 .header__button1 {
+	margin-left: 250.73px;
+	margin-top: 24px;
+}
+
+.header__button1-elem {
+	margin: 11px;
+}
+
+
+.header__button2 {
+	margin-left: 16px;
+	margin-top: 24px;
+}
+
+.header__button2-elem {
+	margin: 11px;
+}
+
+.header__button3 {
+	margin-left: 16px;
+	margin-top: 24px;
+}
+
+.header__button3-elem {
+	margin: 10px;
+}
+
+.logo__divider2 {
+	margin-top: 28px;
+	margin-left: 20px;
+}
+
+.header__button4 {
 	margin-top: 24px;
 	margin-left: 20px;
 	margin-right: 16px;
 }
 
-.header__button1-elem {
+.header__button4-elem {
 	margin: 10px;
 }
 
-.header__button2 {
+.header__button5 {
 	margin-top: 24px;
 }
 
-.header__button2-elem {
+.header__button5-elem {
 	margin: 10px;
 	margin-left: 12px;
+}
+
+.container__content {
+	background-color: #F8F8F8;
+	font-family: sans-serif;
+	display: flex;
+	flex-flow: wrap;
 }
 
 h1 {
@@ -162,21 +213,23 @@ input {
 	padding-right: 16px;
 }
 
-h2 {
-	font-size: 16px;
-	font-style: medium;
-	margin-top: 16px;
-	line-height: 24px;
-}
 
 .icon {
 	margin-left: 24.29px;
-	margin-top: 23.29px;
-	margin-right: 16.29px;
+	margin-top: 23px;
+}
+
+h2 {
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 16px;
+	margin-top: 16px;
+	vertical-align: top;
 }
 
 .container__content_img {
-	width: 320px;
-	height: 230.8px;
+	min-width: 320px;
+	min-height: 230.8px;
 	margin-top: 16px;
 }
+
