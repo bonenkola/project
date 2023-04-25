@@ -13,6 +13,14 @@
 	background-color: grey;
 }
 
+/*
+@media (max-width: 1120px) {
+.container__header {
+		display: none;
+	}
+}
+*/
+
 .container__header {
 	width: 100%;
 	height: 87px;
