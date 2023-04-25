@@ -196,6 +196,7 @@ input {
 	text-align: center;
 	font-size: 16px;
 	color: #7E7E82;
+	margin-top: 24px;
 }
 
 .section {
@@ -214,22 +215,42 @@ input {
 }
 
 
+@media (max-width: 320px) {
+	.text {
+		display: none;
+	}
+}
+
+
+.text {
+	font-size: 14px;
+	width: 288px;
+	color: #1B1C21;
+	text-align: left;
+	line-height: 18px;
+	vertical-align: top;
+	letter-spacing: 0.2px;
+	margin-top: 25px;
+}
+
+
 .icon {
+	display: inline-block;
 	margin-left: 24.29px;
-	margin-top: 23px;
+	margin-top: 16px;
 }
 
 h2 {
+	display: inline-block;
 	font-size: 16px;
 	line-height: 24px;
 	margin-left: 16px;
-	margin-top: 16px;
 	vertical-align: top;
 }
 
 .container__content_img {
 	min-width: 320px;
-	min-height: 230.8px;
-	margin-top: 16px;
+	min-height: 258px;
+	margin-top: 56px;
 }
 
