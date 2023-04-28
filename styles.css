@@ -3,25 +3,16 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-@import 'fonts.css';
+
 
 .container {
 	width: 100%;
 	height: 100vh;	
 	display: flex;
 	flex-direction: column;
-	background-color: grey;
 }
 
-/*
-@media (max-width: 1120px) {
-.container__header {
-		display: none;
-	}
-}
-*/
-
-.container__header {
+header {
 	width: 100%;
 	height: 87px;
 	background-color: white;
@@ -55,13 +46,6 @@
 	margin-bottom: 24px;
 	margin-right: 16.73px;
 }
-
-@media (min-width: 768px) {
-	.header__burger {
-		margin-left: 24px;
-	}
-}
-
 
 .header__burger_elem1,
 .header__burger_elem2,
@@ -112,14 +96,7 @@
 	border: none;
 }
 
-@media (max-width: 320px) {
-	.header__button1,
-	.header__button2,
-	.header__button3,
-	.logo__divider2 {
-		display: none;
-	}
-}
+
 .header__button1 {
 	margin-left: 250.73px;
 	margin-top: 24px;
@@ -172,7 +149,7 @@
 	margin-left: 12px;
 }
 
-.container__content {
+main {
 	background-color: #F8F8F8;
 	font-family: sans-serif;
 	display: flex;
@@ -195,16 +172,33 @@ form {
 	display: flex;
 	flex-direction: row;
 }
-input {
-	border-color: #B8FFEC;
+
+
+button {
+	border: none;
 	margin-left: 16px;
 	width: 246px;
 	height: 40px;
 	border-radius: 6px;
 	text-align: center;
+	margin-top: 24px;
+	background-color: #F8F8F8;
+}
+
+
+input {
+	border: none;
+	width: 221.95px;
+	height: 24px;
 	font-size: 16px;
 	color: #7E7E82;
-	margin-top: 24px;
+	background-color: #F8F8F8;
+	overflow: auto;
+}
+
+.focus:hover {
+	background-color: #FFFFFF;
+	border-color: #B8FFEC;
 }
 
 .section {
@@ -220,13 +214,6 @@ input {
 	vertical-align: top;
 	letter-spacing: 0.2px;
 	padding-right: 16px;
-}
-
-
-@media (max-width: 320px) {
-	.text {
-		display: none;
-	}
 }
 
 
@@ -258,7 +245,37 @@ h2 {
 
 .container__content_img {
 	min-width: 320px;
-	min-height: 258px;
+	min-height: 230.8px;
 	margin-top: 56px;
 }
 
+
+
+@media (min-width: 1120px) {
+	header {
+		display: none;
+	}
+}
+
+@media (min-width: 320px) {
+	.header__button1,
+	.header__button2,
+	.header__button3,
+	.logo__divider2 {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.header__burger {
+		margin-left: 24px;
+	}
+}
+
+@media (min-width: 320px) {
+	.text {
+		display: none;
+	}
+}
+
+@import 'fonts.css';
