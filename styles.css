@@ -286,12 +286,33 @@ h2 {
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 767px) {
 	.container__content_img {
 	min-width: 360px;
 	min-height: 259.66px;
 	margin-top: 40px;
 	margin-left: 48px;
 	margin-bottom: 14.34px;
+	}
+}
+
+@media (min-width: 767px) {
+	.icon {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 767px) {
+	.section {
+		width: 312px;
+		min-height: 160px;
+		text-align: left;
+	}
+}
+
+@media (min-width: 767px) {
+	.text {
+		width: 312px;
+		text-align: left;
 	}
 }
