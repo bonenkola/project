@@ -316,3 +316,11 @@ h2 {
 		text-align: left;
 	}
 }
+
+@media (max-width: 1119px) {
+	.address,
+	.reviews {
+		display: none;
+	}
+}
+
