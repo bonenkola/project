@@ -319,8 +319,25 @@ h2 {
 
 @media (max-width: 1119px) {
 	.address,
-	.reviews {
+	.reviews,
+	.next {
 		display: none;
 	}
 }
 
+@media (min-width: 1120px) {
+	form.reviews > button {
+		margin-right: 993px;
+		margin-top: 14.63px;
+		margin-left: 56px;
+		height: 24px;
+		width: 71px;
+		border-radius: 0;
+	}
+}
+
+@media (min-width: 1120px) {
+	.next {
+		margin-top: 0;
+	}
+}
