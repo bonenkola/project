@@ -320,7 +320,9 @@ h2 {
 @media (max-width: 1119px) {
 	.address,
 	.reviews,
-	.next {
+	.next,
+	.header__button4-text,
+	.header__button5-text {
 		display: none;
 	}
 }
@@ -339,5 +341,21 @@ h2 {
 @media (min-width: 1120px) {
 	.next {
 		margin-top: 0;
+	}
+}
+
+
+@media (min-width: 1120px) {
+	.section,
+	.text,
+	.next {
+		width: 490px;
+	}
+}
+
+@media (min-width: 1120px) {
+	.container__content_img {
+		width: 531.35px;
+		height: 383.24px;
 	}
 }
